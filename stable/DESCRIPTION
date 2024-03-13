@@ -1,0 +1,13 @@
+Package: stable
+Type: Package
+Title: Finds a stable matching between two independent sets of preferences
+Version: 1.0
+Date: 2024-02-29
+Author: Joe Rutherford
+Maintainer: Joe Rutherford <rutherford2018j@gmail.com>
+Description: The package takes two lists of vectors of preferences, and produces preference tables.
+	     Using those tables, it then implements the Fundamental Algorithm on them to find a stable
+	     matchings of those preferences.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.12)
+LinkingTo: Rcpp
