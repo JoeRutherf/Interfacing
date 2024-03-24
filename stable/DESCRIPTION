@@ -1,13 +1,19 @@
 Package: stable
 Type: Package
-Title: Finds a stable matching between two independent sets of preferences
+Title: Finding a set of stable matching between two independent sets of preferences
 Version: 1.0
-Date: 2024-02-29
+Date: 2024-03-24
 Author: Joe Rutherford
 Maintainer: Joe Rutherford <rutherford2018j@gmail.com>
-Description: The package takes two lists of vectors of preferences, and produces preference tables.
-	     Using those tables, it then implements the Fundamental Algorithm on them to find a stable
-	     matchings of those preferences.
+Description: The package has the function stable_marriage that finds a set of stable marriages between two
+	     preference tables by the Fundamental Algorithm. It does this by using inputs thare are two lists 
+             of vectors. 
+	     The package also contains the function other_stable_marriage that does the same but with inputs 
+	     that are two lists of vectors and two other vectors. 
+             The function rcpp_marshall_unordered_dictionaries performs marshalling by transforming a list
+	     of vector of strings as an unordered dictionary.
+	     The function rcpp_marshall_vector_list performs marshalling by transforming a vector of strings 
+	     and a list of vector of strings to an unordered dictionary.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.12)
 LinkingTo: Rcpp
