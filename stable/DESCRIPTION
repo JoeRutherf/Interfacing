@@ -8,7 +8,7 @@ Maintainer: Joe Rutherford <rutherford2018j@gmail.com>
 Description: The package has the function stable_marriage that finds a set of stable marriages between two
 	     preference tables by the Fundamental Algorithm. It does this by using inputs thare are two lists 
              of vectors. 
-	     The package also contains the function other_stable_marriage that does the same but with inputs 
+	     The package also contains the function stable_marriage_other that does the same but with inputs 
 	     that are two lists of vectors and two other vectors. 
              The function rcpp_marshall_unordered_dictionaries performs marshalling by transforming a list
 	     of vector of strings as an unordered dictionary.
